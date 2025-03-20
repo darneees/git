@@ -10,8 +10,26 @@ conceitos básicos do Git e entender como ele funciona. 📂�
 
 ### Instalando o GIT
 
-Acesse o site oficial
+1. Acesse o site oficial:
 
-``
+```
 https://git-scm.com/
-``
+```
+
+2. Baixe o instalador:
+
+```
+Windows, macOS e Linux.
+```
+
+3. Instale o Git:
+
+```
+Siga as instruções do instalador.
+```
+
+4. Verifique a instalação, abra o terminal ou prompt e execute o comando:
+
+```
+git --version
+```

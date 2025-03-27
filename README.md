@@ -41,8 +41,10 @@ git --version
 `Working Directory:` Onde você faz alterações nos
 arquivos. É o estado atual do seu projeto no sistema de arquivos.
 
-``Staging Area:``  Pense na staging area como um local onde você
+`Staging Area:`  Pense na staging area como um local onde você
 pode revisar e organizar suas mudanças antes de fazer um commit.
 
-``  Repository:``  No repositório, todos os commits são armazenados
+`Repository:`  No repositório, todos os commits são armazenados
 de maneira segura e eficiente.
+
+![arvore-de-diretorios](https://github.com/user-attachments/assets/33451a64-2e74-4b96-93f4-e84a7709ce61)

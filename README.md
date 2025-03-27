@@ -48,3 +48,77 @@ pode revisar e organizar suas mudanças antes de fazer um commit.
 de maneira segura e eficiente.
 
 ![arvore-de-diretorios](https://github.com/user-attachments/assets/33451a64-2e74-4b96-93f4-e84a7709ce61)
+
+---
+
+### Comando básicos
+
+Inicializa um resositorio
+```
+git init
+```
+
+Clonar um resositorio
+```
+git clone (url-do-respositório)
+```
+
+Verificar o estado de um respositorio
+```
+git status
+```
+
+Adicionar um arquivo para a area de staging
+```
+git add (nome-do-arquivo)
+```
+
+Adicionar todos os arquivos para a area de staging
+```
+git add .
+```
+
+Adicionar um commit (utilizado para descrever o que foi desenvolvido ou alterado)
+```
+git commit -m "mensagem-do-commit"
+```
+
+Verificar todo o historico de commits do repositório (hash do commit, branch, autor, data/hora e descrição do commit)
+```
+git log
+```
+
+Verificação limitada por 1 ou mais historicos (tratá apenas a quantidade que for passada no comando)
+```
+git log (exemplo: -1, -2, -3 ...)
+```
+
+Verificação da diferença entre o estado atual e o último commit
+```
+git diff
+```
+
+Cria uma nova branch(permiti trabalhar em diferentes linhas de desenvolvimento simultaneo)
+```
+git branch (nome-da-branch)
+```
+
+Lista as branchs existente
+```
+git branch
+```
+
+Mudar de branch (exemplo: main -> nova-branch / nova-branch -> main)
+```
+git checkout (nome-da-branch)
+```
+
+Combinar branchs distintas em uma única
+```
+git merge (nome-da-branch)
+```
+
+Alterar a mensagem de um commit
+```
+git commit --amend -m "nova-mensagem"
+```
